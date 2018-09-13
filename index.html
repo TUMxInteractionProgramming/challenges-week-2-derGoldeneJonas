@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chatter|app</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*  Background	            #e8eded             app’s light grey background	    App
+            Primary text	        #212121             Dark text on light backgrounds	Chat messages, channel names, …
+            Secondary text          #757575             Brighter text color             Sub messages - to distinguish between text blocks
+            Primary color	        #009688             Main contrast color	            App bar, …
+            Primary color text	    #000000             Black or white	                High contrast on primary color
+            Accent color	        #FFC107             Color for interactive elements	Floating action button, +5 min. button
+            Accent color text	    #000000             Black or white	                High contrast on accent color  */
+    </style>
+</head>
+<body>
+<!-- Channel Area -->
+<div id="channelArea">
+    <h1><img src="https://ip.lfe.mw.tum.de/sections/moocus.png" alt="App logo" style="height:56px;margin-top:8px;">chatter|app
+    </h1>
+    <!-- Sections -->
+    <ul>
+        <li>#KillerApp <img class="starIcon" src="https://ip.lfe.mw.tum.de/sections/star.png" alt="icon"></li>
+        <li class="listSelected">#SevenNationArmy <img class="starIcon" src="https://ip.lfe.mw.tum.de/sections/star.png"
+                                                       alt="icon"></li>
+        <li>#Octoberfest <img class="starIcon" src="https://ip.lfe.mw.tum.de/sections/star-o.png" alt="icon"></li>
+        <li>#MotivationalCoachingArea <img class="starIcon" src="https://ip.lfe.mw.tum.de/sections/star.png" alt="icon">
+        </li>
+        <li>#FirstPersonOnMars <img class="starIcon" src="https://ip.lfe.mw.tum.de/sections/star.png" alt="icon"></li>
+    </ul>
+    <!-- Channel Area Buttons -->
+    <div class="tabBar">
+        <button class="selected"><img class="icon" src="https://ip.lfe.mw.tum.de/sections/lightbulb-o.png" alt="icon">New
+        </button>
+        <button><img class="icon" src="https://ip.lfe.mw.tum.de/sections/fire.png" alt="icon">Trending</button>
+        <button><img class="icon" src="https://ip.lfe.mw.tum.de/sections/star.png" alt="icon">Favorites</button>
+    </div>
+</div>
+<!-- Chat Area -->
+<div id="chatArea">
+    <h1>#SevenNationArmy by
+        <span class="w3wLocation">fakten.barocke.eisbär</span> <img class="starIcon"
+                                                                    src="https://ip.lfe.mw.tum.de/sections/star.png"
+                                                                    alt="icon">
+    </h1>
+    <!--Chat Section -->
+    <div class="message own">
+        <h3>
+            <a class="w3wLocation" href="https://map.what3words.com/fakten.barocke.eisbär">fakten.barocke.eisbär</a>
+            Wed, June 20th, 13:37 <em>15min left</em></h3>
+        <p>I'm gonna fight 'em all.</p>
+        <button>+5min</button>
+    </div>
+    <div class="message">
+        <h3>
+            <a class="w3wLocation" href="https://map.what3words.com/cheeses.yard.applies">cheeses.yard.applies</a>
+            Thu, June 21th, 14:37 <em>19min left</em></h3>
+        <p>A seven nation army couldn't hold me back.</p>
+        <button>+5min</button>
+    </div>
+    <div class="message">
+        <h3>
+            <a class="w3wLocation" href="https://map.what3words.com/gewechselt.dulden.aufstieg">gewechselt.dulden.aufstieg</a>
+            Thu, June 21th, 15:14 <em>10min left</em></h3>
+        <p>They're gonna rip it off.</p>
+        <button>+5min</button>
+    </div>
+</div>
+</body>
+</html>

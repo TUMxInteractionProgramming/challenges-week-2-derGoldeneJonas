@@ -1,0 +1,108 @@
+/* GLOBAL */
+* {
+    font-family: "Roboto", sans-serif;
+    background-color: #e8eded;
+    padding: 0;
+    margin: 0;
+}
+
+.w3wLocation, button {
+    background-color: #FFC107;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+img {
+    background-color: inherit;
+}
+
+/* APP BAR */
+h1 {
+    background-color: #009688;
+    color: #000000;
+}
+
+/* CHANNELS LIST */
+li {
+    padding: 16px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    list-style-type: none;
+    border: 1px solid #e8eded;
+
+}
+
+li.listSelected {
+    border-left: 4px solid #009688;
+    color: #009688;
+}
+
+li .starIcon {
+    vertical-align: middle;
+}
+
+/* TAB BAR */
+.tabBar {
+    background-color: #FFFFFF;
+}
+
+.tabBar button {
+    background-color: white;
+    border-style: none;
+    font-size: 13px;
+    height: 74px;
+    width: 33%;
+    padding: 16px;
+
+}
+
+.tabBar .icon {
+    display: block;
+    margin: auto;
+    padding-bottom: 4px;
+}
+
+.tabBar .selected {
+    border-bottom: 4px solid #009688;
+    color: #009688;
+}
+
+/* MESSAGES */
+.w3wLocation {
+    background-color: inherit;
+}
+
+a {
+    color: #212121;
+}
+
+.message {
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+
+.message h3 {
+    font-size: medium;
+}
+
+.message p {
+    background-color: #FFFFFF;
+    padding: 16px;
+}
+
+.message em {
+    font-size: larger;
+    font-style: unset;
+}
+
+.message button {
+    background-color: #FFC107;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.message.own {
+    margin-left: 15%;
+}
